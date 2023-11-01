@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mary & Fabio</title>
+    <!-- Inclua os links para as bibliotecas do Bootstrap e jQuery aqui -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="./img/mary___fabio_0AJ_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css">
+
+    <!-- Inclua seu arquivo CSS personalizado, se necessário -->
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+
+<body>
+    <!-- Barra de navegação Bootstrap -->
+    <nav class="navbar navbar-expand-lg bg-black text-white th" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" data-aos="fade" data-aos-duration="1500">
+        <a class="navbar-brand logoname text-white" href="index.html" style="font-size: 30px;">Mary & Fabio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white alink" href="./index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white alink" href="./sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white alink" href="./saibaMais.html">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white alink" href="https://api.whatsapp.com/send?phone=+1-(206)-424-5836&text=Olá, Teria Interesse!" onclick="exibirMensagem()">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção de Início -->
+    <section id="inicio" class="jumbotron text-center backinicio" >
+        <h1 style="font-weight: bold; font-weight: 900;" data-aos="fade-up" data-aos-duration="1000" ><strong>MARY & FABIO</strong></h1>
+        <h2 style="font-family: 'Times New Roman', Times, serif;" data-aos="fade-up" data-aos-duration="1000">SHOWS AO VIVO</h2>
+        <br><br>
+        <!-- <h2>Contato</h2> -->
+        
+            <a href="https://api.whatsapp.com/send?phone=+1-(206)-424-5836&text=Olá, Teria Interesse!" target="_blank" id="contato" class="whatsapp-button" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./img/icons8-whatsapp.svg" alt="icone Whatsapp">
+                <i class="fab fa-whatsapp"></i>Entrar em Contato pelo WhatsApp!
+            </a><br><br>
+        <a href="./saibaMais.html" class="btn btn-dark" data-aos="fade-up" data-aos-duration="1000">Saiba Mais</a>
+    </section>
+
+
+
+
+
+
+
+<br>
+    <!-- Seção Discografia -->
+    <section id="discografia" class="container">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores de Carrossel -->
+                <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ul>
+    
+                <!-- Slides de Carrossel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                        <img src="./img/fotosMaryFabio2.jpeg" alt="Imagem 1" style="width: 495px; " class="rounded mx-auto d-block">
+                    </div>
+                    <div class="carousel-item" > 
+                        <img src="./img/fotosMaryFabio5.jpeg" alt="Imagem 2" style="width: 500px; " class="rounded mx-auto d-block">
+                    </div>
+                    <div class="carousel-item" >
+                        <img src="./img/fotosMaryFabio6.jpeg" alt="Imagem 3" style="width: 500px; " class="rounded mx-auto d-block">
+                    </div>
+                    <div class="carousel-item" >
+                        <img src="./img/show122.jpg" alt="Imagem 4" style="width: 600px; " class="rounded mx-auto d-block">
+                    </div>
+                </div>
+    
+                <!-- Controles de Carrossel -->
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <!-- <section id="contato" class="container">
+        
+    </section> -->
+    <!-- Rodapé -->
+    <!-- <footer class="text-center">
+        <p>&copy; 2023 Mary & Fabio. Todos os direitos reservados.</p>
+    </footer> -->
+
+    <!-- Inclua seus scripts jQuery e personalizados aqui -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        // document.oncontextmenu = function() {
+        //     return false;
+        // }
+    </script>
+</body>
+</html>
